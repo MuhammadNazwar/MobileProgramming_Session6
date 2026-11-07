@@ -11,7 +11,7 @@ To Do App merupakan aplikasi mobile berbasis React Native dan Expo yang dikemban
 ## Repository
 
 ## Dokumentasi
-### UI Utama
+### UI Utama ###
 <img width="591" height="625" alt="image" src="https://github.com/user-attachments/assets/f9bb213b-bf12-4574-b87b-a4037e6d0bec" />
 ### Create
 <img width="597" height="633" alt="image" src="https://github.com/user-attachments/assets/3793286d-be40-4021-9d30-6ddb6255569c" />
