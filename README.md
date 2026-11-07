@@ -9,10 +9,10 @@ To Do App merupakan aplikasi mobile berbasis React Native dan Expo yang dikemban
 </p>
 
 ## Repository
-1. Config.js
-2. App.js
-3. Screens/Home.js
-4. Screens/Detail.js
+1. Screens/Detail.js
+2. Screens/Home.js
+3. App.js
+4. Config.js
 
 ## Dokumentasi
 ### UI Utama ###
