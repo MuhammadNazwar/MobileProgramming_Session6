@@ -111,7 +111,6 @@ Tampilan ketika seluruh kotak pada papan permainan telah terisi, tetapi tidak te
 ---
 
 ## 8. Kesimpulan
-
 <p align="justify">
 Melalui praktikum Session 5 ini, mahasiswa dapat memahami penerapan konsep pemrograman Front End menggunakan React Native dan Expo dalam pengembangan aplikasi mobile interaktif. Pembuatan permainan Tic Tac Toe memberikan pemahaman mengenai penggunaan komponen antarmuka, pengelolaan state, logika pemrograman, pergantian giliran pemain, serta pemeriksaan kondisi kemenangan dan hasil seri.
 </p>
