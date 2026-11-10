@@ -115,5 +115,7 @@ Dokumentasi Firebase Cloud Firestore yang digunakan sebagai basis data aplikasi 
 ## Kesimpulan
 <p align="justify">
 Melalui praktikum Session 6 ini, mahasiswa dapat memahami penerapan konsep CRUD (Create, Read, Update, Delete) menggunakan React Native dan Expo dalam pengembangan aplikasi mobile. Pembuatan aplikasi To Do List memberikan pemahaman mengenai proses penambahan, penampilan, perubahan, dan penghapusan data melalui antarmuka aplikasi. Selain itu, praktikum ini juga memberikan pengalaman dalam mengintegrasikan Firebase Cloud Firestore sebagai layanan basis data untuk menyimpan dan mengelola informasi secara online.
+</p>
+<p align="justify">
 Proyek ini menjadi salah satu bentuk penerapan pengembangan aplikasi mobile yang menggabungkan antarmuka pengguna, pengelolaan data, serta integrasi layanan Backend. Dengan adanya penerapan operasi CRUD dan Firebase, aplikasi To Do List dapat digunakan untuk mengelola aktivitas pengguna secara lebih terstruktur dan efisien.
 </p>
