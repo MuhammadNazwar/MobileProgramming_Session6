@@ -1,38 +1,127 @@
-# CRUD To Do List - Session 6
+# Tic Tac Toe - Session 5
 
-## Identitas Mahasiswa
-Muhammad Nazwar Abdillah Putra 41155050240029
+## 1. Identitas Mahasiswa
 
-## Deskripsi Project
+**Muhammad Nazwar Abdillah Putra**
+
+41155050240029
+
+## 2. Deskripsi Proyek
+
 <p align="justify">
-To Do App merupakan aplikasi mobile berbasis React Native dan Expo yang dikembangkan dengan memanfaatkan Firebase sebagai basis data. Aplikasi ini menerapkan konsep CRUD (Create, Read, Update, Delete) untuk mengelola daftar aktivitas atau tugas pengguna. Fitur yang tersedia meliputi penambahan data aktivitas, menampilkan daftar aktivitas, mengubah informasi aktivitas, serta menghapus data yang sudah tidak diperlukan. Seluruh data disimpan dan dikelola menggunakan Cloud Firestore sehingga perubahan data dapat diperbarui secara langsung pada aplikasi. Melalui tugas ini, mahasiswa mempelajari penerapan operasi CRUD, integrasi Firebase, serta pengelolaan data pada pengembangan aplikasi mobile menggunakan React Native.
+Tic Tac Toe merupakan proyek pengembangan aplikasi permainan mobile sederhana menggunakan framework React Native dan Expo dengan memanfaatkan VSCodium sebagai lingkungan pengembangan. Praktikum ini bertujuan untuk memahami penerapan konsep pemrograman Front End dalam pengembangan aplikasi mobile melalui pembuatan permainan interaktif yang dapat dimainkan oleh dua pemain secara bergantian.
 </p>
 
-## Repository
-1. Screens/Detail.js
-2. Screens/Home.js
-3. App.js
-4. Config.js
+<p align="justify">
+Dalam permainan ini, pemain menggunakan simbol X dan O untuk mengisi sembilan kotak pada papan permainan. Pengembangan aplikasi mencakup pembuatan antarmuka pengguna (User Interface), pengelolaan state untuk menyimpan kondisi permainan, penerapan logika permainan, serta pemeriksaan kondisi kemenangan dan hasil seri. Pengerjaan praktikum mengikuti instruksi dan ketentuan yang terdapat dalam dokumen TugasTTC.pdf.
+</p>
 
-## Dokumentasi
-### UI Utama ###
-<img width="591" height="625" alt="image" src="https://github.com/user-attachments/assets/f9bb213b-bf12-4574-b87b-a4037e6d0bec" />
+## 3. Fitur Utama
 
-### Create
-<img width="597" height="633" alt="image" src="https://github.com/user-attachments/assets/3793286d-be40-4021-9d30-6ddb6255569c" />
-<img width="595" height="630" alt="image" src="https://github.com/user-attachments/assets/199f6c11-2440-444d-a2b6-01b1ab9e442d" />
+- **Interactive Game Board:** Menampilkan papan permainan berukuran 3 × 3 yang dapat digunakan pemain untuk menempatkan simbol X dan O.
+- **Two Player Mode:** Memungkinkan dua pemain bermain secara bergantian dalam satu perangkat.
+- **Turn Management:** Mengatur pergantian giliran antara pemain X dan pemain O secara otomatis.
+- **Win Detection:** Memeriksa kombinasi simbol untuk menentukan pemain yang berhasil memenangkan permainan.
+- **Draw Detection:** Mendeteksi kondisi seri ketika seluruh kotak telah terisi tanpa adanya pemain yang menang.
+- **Game Status:** Menampilkan informasi mengenai giliran pemain, kondisi kemenangan, atau hasil seri.
 
-### Read
-<img width="595" height="630" alt="image" src="https://github.com/user-attachments/assets/0498f2a2-a8b5-42d5-8383-2c9acfabdd1d" />
+## 4. Teknologi yang Digunakan
 
-### Update
-<img width="595" height="634" alt="image" src="https://github.com/user-attachments/assets/edb037d2-ce4e-4afd-a841-18f84e03740d" />
-<img width="591" height="638" alt="image" src="https://github.com/user-attachments/assets/c7567d76-e36a-4ad0-824c-bda54d1bf54f" />
-<img width="594" height="627" alt="image" src="https://github.com/user-attachments/assets/a0c8cb9a-30aa-402d-836c-f35a521e1f1c" />
+| Teknologi | Kegunaan |
+|---|---|
+| React Native | Framework untuk pengembangan aplikasi mobile |
+| Expo | Platform dan tool untuk mempermudah pengembangan serta menjalankan aplikasi React Native |
+| TypeScript | Bahasa pemrograman untuk implementasi logika dan komponen aplikasi |
+| VSCodium | Code editor untuk menulis dan mengelola kode program |
+| Node.js & npm | Lingkungan runtime dan pengelolaan dependency proyek |
 
-### Delete
-<img width="692" height="256" alt="image" src="https://github.com/user-attachments/assets/e535bb29-be43-4db5-a8a4-b4458d626f48" />
-<img width="591" height="625" alt="image" src="https://github.com/user-attachments/assets/546f0315-fe93-488b-8e37-98e9a47b89ca" />
+## 5. Cara Instalasi dan Menjalankan Aplikasi
 
-### Firebase
-<img width="940" height="151" alt="image" src="https://github.com/user-attachments/assets/bbc28fbf-d03a-4013-901d-ebfb71f75794" />
+**Persyaratan:**
+
+- Node.js dan npm.
+- Expo CLI melalui NPX.
+- VSCodium atau code editor lainnya.
+- Expo Go pada perangkat Android atau emulator Android.
+
+**Langkah-langkah instalasi:**
+
+1. Clone repository dari GitHub.
+
+   ```bash
+   git clone <URL_REPOSITORY>
+   ```
+
+2. Masuk ke direktori proyek.
+
+   ```bash
+   cd <NAMA_FOLDER_PROYEK>
+   ```
+
+3. Instal seluruh dependency yang dibutuhkan.
+
+   ```bash
+   npm install
+   ```
+
+4. Buka proyek menggunakan VSCodium.
+
+   ```bash
+   codium .
+   ```
+
+5. Jalankan aplikasi menggunakan Expo.
+
+   ```bash
+   npx expo start
+   ```
+
+6. Setelah Expo berhasil dijalankan, scan QR Code menggunakan aplikasi Expo Go atau jalankan melalui emulator Android.
+
+7. Aplikasi Tic Tac Toe siap dimainkan.
+
+## 6. Repository
+
+**File utama:**
+
+| Nama File | Keterangan |
+|---|---|
+| `src/app/index.tsx` | File utama yang berisi implementasi antarmuka, state management, dan logika permainan Tic Tac Toe |
+
+## 7. Dokumentasi dan Demo
+
+### A. Tampilan Utama (UI)
+
+Tampilan awal permainan yang menampilkan papan Tic Tac Toe sebagai media interaksi antara dua pemain.
+
+<img width="272" height="598" alt="Tampilan Utama Tic Tac Toe" src="https://github.com/user-attachments/assets/a1c6ca89-1c8a-478d-bd1c-dc19c8bab67f" />
+
+### B. Kondisi Menang (Win)
+
+Tampilan ketika salah satu pemain berhasil memperoleh kombinasi simbol yang sesuai dengan aturan kemenangan Tic Tac Toe.
+
+<img width="270" height="597" alt="Kondisi Menang" src="https://github.com/user-attachments/assets/c51ee714-b0b5-4f7b-98ca-92e4fdbb3b59" />
+
+### C. Kondisi Seri (Draw)
+
+Tampilan ketika seluruh kotak pada papan permainan telah terisi, tetapi tidak terdapat kombinasi kemenangan dari kedua pemain.
+
+<img width="270" height="601" alt="Kondisi Seri" src="https://github.com/user-attachments/assets/449d0449-4a22-41bd-a15c-7ff9b4827670" />
+
+---
+
+## 8. Kesimpulan
+
+<p align="justify">
+Melalui praktikum Session 5 ini, mahasiswa dapat memahami penerapan konsep pemrograman Front End menggunakan React Native dan Expo dalam pengembangan aplikasi mobile interaktif. Pembuatan permainan Tic Tac Toe memberikan pemahaman mengenai penggunaan komponen antarmuka, pengelolaan state, logika pemrograman, pergantian giliran pemain, serta pemeriksaan kondisi kemenangan dan hasil seri.
+</p>
+
+<p align="justify">
+Proyek ini menjadi salah satu bentuk penerapan dasar pengembangan aplikasi mobile berbasis React Native yang menggabungkan desain antarmuka dan logika aplikasi sehingga menghasilkan permainan sederhana yang interaktif dan dapat digunakan oleh dua pemain.
+</p>
+
+---
+
+**Author:** Muhammad Nazwar Abdillah Putra
+
+**NIM:** 41155050240029
